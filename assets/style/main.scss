@@ -1,0 +1,39 @@
+@import './fonts.scss';
+
+* {
+  // font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'SuisseIntl', cursive;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0
+}
+
+a {
+  color: #3db565 !important;
+}
+
+.wrapper {
+  margin-top: 5.9vh;
+  margin-left: 45px;
+  margin-right: 50px;
+}
+
+.link {
+  font-size: 51px;
+  line-height: 48px;
+  font-family: "SuisseIntl-Light";
+  font-weight: 300; 
+}
